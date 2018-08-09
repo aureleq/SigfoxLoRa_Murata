@@ -42,7 +42,7 @@ Flashing the device requires the device to be in bootloader mode. To do so on th
 make flash
 ```
 
-Once the device is flashed, you can send a message by pushing the User Button. You can also display logs using a terminal, this is especially useful to display Sigfox ID and PAC (push Reset button once connected through the terminal).
+Once the device is flashed, messages will be sent periodically on both networks
 
 ## Debug
 
