@@ -74,7 +74,7 @@ Maintainer: Miguel Luis and Gregory Cristian
  * When set to 1 the application uses the Over-the-Air activation procedure
  * When set to 0 the application uses the Personalization activation procedure
  */
-#define OVER_THE_AIR_ACTIVATION                     0
+#define OVER_THE_AIR_ACTIVATION                     1
 
 /*!
  * Indicates if the end-device is to be connected to a private or public network
@@ -119,14 +119,13 @@ Maintainer: Miguel Luis and Gregory Cristian
  *         a pseudo random generator seeded with a value derived from
  *         BoardUniqueId value
  */
-#define STATIC_DEVICE_ADDRESS                     1
+#define STATIC_DEVICE_ADDRESS                     0
 /*!
  * Device address on the network (big endian)
  *
  * \remark see STATIC_DEVICE_ADDRESS comments
  */
-//#define LORAWAN_DEVICE_ADDRESS                      ( uint32_t )0x0100000a
-#define LORAWAN_DEVICE_ADDRESS                      ( uint32_t )0x26011EF5
+#define LORAWAN_DEVICE_ADDRESS                      ( uint32_t )0x0100000a
 
 /*!
  * AES encryption/decryption cipher network session key
