@@ -1,0 +1,5 @@
+murata_lpwan_gcc\Projects\B-L072Z-LRWAN1\Applications\SgfxLora\SgfxLora_Periodic\inc\Commissioning.h
+murata_lpwan_gcc\Projects\B-L072Z-LRWAN1\Applications\SgfxLora\SgfxLora_Periodic\inc\sigfox_data.h
+main_text.bin
+main.elf
+*.o
